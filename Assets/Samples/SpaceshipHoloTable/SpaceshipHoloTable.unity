@@ -4215,7 +4215,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1116174325}
-  m_LocalRotation: {x: 0.36872676, y: 0.0006214547, z: -0.00024651713, w: 0.92953765}
+  m_LocalRotation: {x: 0.3687268, y: 0.00062153593, z: -0.0002465494, w: 0.9295376}
   m_LocalPosition: {x: -0.0003464413, y: 1.735, z: -0.2409966}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -7781,7 +7781,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1618977318}
-  m_LocalRotation: {x: 0.36872676, y: 0.00062147254, z: -0.00024653936, w: 0.92953765}
+  m_LocalRotation: {x: 0.3687268, y: 0.00062151323, z: -0.0002465555, w: 0.92953765}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -8877,7 +8877,7 @@ Transform:
   m_GameObject: {fileID: 1805316906}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
   m_LocalPosition: {x: 0.0039995015, y: 0.135, z: 3.0090005}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.99, y: 0.99, z: 0.99}
   m_Children:
   - {fileID: 1021448718}
   m_Father: {fileID: 0}
@@ -8999,7 +8999,7 @@ VisualEffect:
       m_Array: []
     m_Vector3f:
       m_Array:
-      - m_Value: {x: 0.4329995, y: 0.246, z: 2.5070004}
+      - m_Value: {x: 0.4287095, y: 0.24489, z: 2.5120206}
         m_Name: AABoxControl_center
         m_Overridden: 1
       - m_Value: {x: 4, y: 1, z: 4}
@@ -13300,5 +13300,20 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a3c03164597b18246801bdf612146813, type: 2}
+    - target: {fileID: 2422579850273716171, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2422579850273716171, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2422579850273716171, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d79b36b97cde4c4ab0869ac62ab4cf2, type: 3}
