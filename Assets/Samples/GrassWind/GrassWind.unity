@@ -746,7 +746,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 4294967295
   volumeAnchorOverride: {fileID: 0}
-  antialiasing: 2
+  antialiasing: 3
   SMAAQuality: 2
   dithering: 0
   stopNaNs: 0
@@ -1223,12 +1223,12 @@ PrefabInstance:
     - target: {fileID: 8867045933297385909, guid: 7737647c22c1fc64a88d5cd030c352ce,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.09571876
+      value: 0.095718764
       objectReference: {fileID: 0}
     - target: {fileID: 8867045933297385909, guid: 7737647c22c1fc64a88d5cd030c352ce,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0.00042002424
+      value: 0.00042002427
       objectReference: {fileID: 0}
     - target: {fileID: 8867045933297385909, guid: 7737647c22c1fc64a88d5cd030c352ce,
         type: 3}
