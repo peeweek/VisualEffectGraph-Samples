@@ -4067,7 +4067,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1104861794}
   - component: {fileID: 1104861793}
-  - component: {fileID: 1104861792}
   - component: {fileID: 1104861791}
   - component: {fileID: 1104861790}
   - component: {fileID: 1104861789}
@@ -4078,7 +4077,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1104861788
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4126,8 +4125,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ExecuteInEditor: 1
-  m_Bindings:
-  - {fileID: 1104861788}
+  m_Bindings: []
   m_VisualEffect: {fileID: 1104861793}
 --- !u!73398921 &1104861791
 VFXRenderer:
@@ -4136,7 +4134,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1104861787}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -4146,6 +4144,9 @@ VFXRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   - {fileID: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
@@ -4166,18 +4167,6 @@ VFXRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
---- !u!114 &1104861792
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1104861787}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5170af12815651642b65c050306b2788, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!2083052967 &1104861793
 VisualEffect:
   m_ObjectHideFlags: 0
@@ -4205,7 +4194,7 @@ VisualEffect:
       m_Array: []
     m_Vector3f:
       m_Array:
-      - m_Value: {x: 0.4329995, y: 0.246, z: 2.5070004}
+      - m_Value: {x: 0.4287095, y: 0.24489, z: 2.5120206}
         m_Name: AABoxControl_center
         m_Overridden: 1
       - m_Value: {x: 4, y: 1, z: 4}
@@ -4254,11 +4243,11 @@ Transform:
   m_GameObject: {fileID: 1104861787}
   m_LocalRotation: {x: -0, y: 1, z: -0, w: 0}
   m_LocalPosition: {x: 0.0039995015, y: 0.135, z: 3.0090005}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.99, y: 0.99, z: 0.99}
   m_Children:
   - {fileID: 790437305}
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
 --- !u!1 &1116174325
 GameObject:
@@ -9317,7 +9306,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1805316907
 Transform:
   m_ObjectHideFlags: 0
@@ -9340,7 +9329,7 @@ VFXRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1805316906}
-  m_Enabled: 0
+  m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
   m_DynamicOccludee: 1
@@ -9419,7 +9408,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ExecuteInEditor: 1
-  m_Bindings: []
+  m_Bindings:
+  - {fileID: 1805316910}
   m_VisualEffect: {fileID: 1805316913}
 --- !u!2083052967 &1805316913
 VisualEffect:
