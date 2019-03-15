@@ -5,7 +5,7 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/VisualEffectsSamples.unity
     guid: fd4b4253a3a40034cb965686d7d504c0
   - enabled: 0
