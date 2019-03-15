@@ -150,19 +150,6 @@ MonoBehaviour:
   m_Script: {fileID: 449145272}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_Entries:
-  - id: 0
-    category: 0
-    gameObject: {fileID: 1129409461}
-  - id: 1
-    category: 0
-    gameObject: {fileID: 1672757542}
-  - id: 2
-    category: 0
-    gameObject: {fileID: 1470610912}
-  - id: 3
-    category: 0
-    gameObject: {fileID: 848412174}
 --- !u!4 &66908060
 Transform:
   m_ObjectHideFlags: 19
@@ -4164,9 +4151,9 @@ VisualEffect:
       - m_Value: {x: 0.4287095, y: 0.24489, z: 2.5120206}
         m_Name: AABoxControl_center
         m_Overridden: 0
-      - m_Value: {x: 3, y: 0.91, z: 3}
+      - m_Value: {x: 3, y: 1, z: 3}
         m_Name: AABoxControl_size
-        m_Overridden: 1
+        m_Overridden: 0
       - m_Value: {x: 0, y: 0, z: 0}
         m_Name: BezierPTA
         m_Overridden: 0
