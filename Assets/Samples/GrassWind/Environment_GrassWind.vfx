@@ -165,6 +165,7 @@ MonoBehaviour:
   m_UIPosition: {x: 0, y: 0}
   m_UICollapsed: 1
   m_UISuperCollapsed: 0
+  title: 
   m_Owners:
   - {fileID: 114946465509916290}
   - {fileID: 114780028408030698}
@@ -841,348 +842,37 @@ VisualEffectResource:
       = index;\n\n\t\toutputBuffer[id] = kvp;\n\t}\n}\n"
   m_Infos:
     m_Expressions:
-      m_Expressions:
-      - op: 1
-        valueIndex: 0
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 12
-      - op: 1
-        valueIndex: 16
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 2
-      - op: 1
-        valueIndex: 18
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 1
-      - op: 1
-        valueIndex: 19
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 7
-      - op: 1
-        valueIndex: 21
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 7
-      - op: 1
-        valueIndex: 23
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 6
-      - op: 1
-        valueIndex: 24
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 1
-      - op: 1
-        valueIndex: 25
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 2
-      - op: 1
-        valueIndex: 27
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 2
-      - op: 1
-        valueIndex: 29
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 1
-      - op: 1
-        valueIndex: 30
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 1
-      - op: 1
-        valueIndex: 31
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 3
-      - op: 6
-        valueIndex: 34
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: -1
-      - op: 1
-        valueIndex: 35
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 1
-      - op: 1
-        valueIndex: 36
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 1
-      - op: 1
-        valueIndex: 37
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 3
-      - op: 1
-        valueIndex: 40
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 1
-      - op: 1
-        valueIndex: 41
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 1
-      - op: 1
-        valueIndex: 42
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 1
-      - op: 1
-        valueIndex: 43
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 3
-      - op: 1
-        valueIndex: 46
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 3
-      - op: 1
-        valueIndex: 49
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 3
-      - op: 1
-        valueIndex: 52
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 2
-      - op: 1
-        valueIndex: 54
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: 1
-      - op: 9
-        valueIndex: 55
-        data[0]: -1
-        data[1]: -1
-        data[2]: -1
-        data[3]: -1
-      m_NeedsLocalToWorld: 1
+      m_Expressions: []
+      m_NeedsLocalToWorld: 0
       m_NeedsWorldToLocal: 0
+      m_NeededMainCameraBuffers: 0
     m_PropertySheet:
       m_Float:
-        m_Array:
-        - m_ExpressionIndex: 2
-          m_Value: 0.5650067
-        - m_ExpressionIndex: 6
-          m_Value: 0.5
-        - m_ExpressionIndex: 9
-          m_Value: 900
-        - m_ExpressionIndex: 10
-          m_Value: 600
-        - m_ExpressionIndex: 13
-          m_Value: 63
-        - m_ExpressionIndex: 14
-          m_Value: 0
-        - m_ExpressionIndex: 16
-          m_Value: 0.3249
-        - m_ExpressionIndex: 17
-          m_Value: 6.2831855
-        - m_ExpressionIndex: 18
-          m_Value: 1
-        - m_ExpressionIndex: 23
-          m_Value: 0.4430541
+        m_Array: []
       m_Vector2f:
-        m_Array:
-        - m_ExpressionIndex: 1
-          m_Value: {x: 60, y: 60}
-        - m_ExpressionIndex: 7
-          m_Value: {x: 0.125, y: 0.125}
-        - m_ExpressionIndex: 8
-          m_Value: {x: 8, y: 8}
-        - m_ExpressionIndex: 22
-          m_Value: {x: 0, y: 0}
+        m_Array: []
       m_Vector3f:
-        m_Array:
-        - m_ExpressionIndex: 11
-          m_Value: {x: 0.6603774, y: 0.6603774, z: 0.6603774}
-        - m_ExpressionIndex: 15
-          m_Value: {x: 0, y: 500, z: 0}
-        - m_ExpressionIndex: 19
-          m_Value: {x: 0, y: 0, z: 0}
-        - m_ExpressionIndex: 20
-          m_Value: {x: 1500, y: 1500, z: 1500}
-        - m_ExpressionIndex: 21
-          m_Value: {x: 0, y: 1, z: 0}
+        m_Array: []
       m_Vector4f:
         m_Array: []
       m_Uint:
-        m_Array:
-        - m_ExpressionIndex: 5
-          m_Value: 2
+        m_Array: []
       m_Int:
         m_Array: []
       m_Matrix4x4f:
-        m_Array:
-        - m_ExpressionIndex: 0
-          m_Value:
-            e00: 1500
-            e01: 0
-            e02: 0
-            e03: 0
-            e10: 0
-            e11: 0.00008940697
-            e12: -1499.9999
-            e13: 0
-            e20: 0
-            e21: 1499.9999
-            e22: 0.00008940697
-            e23: 0
-            e30: 0
-            e31: 0
-            e32: 0
-            e33: 1
+        m_Array: []
       m_AnimationCurve:
         m_Array: []
       m_Gradient:
         m_Array: []
       m_NamedObject:
-        m_Array:
-        - m_ExpressionIndex: 3
-          m_Value: {fileID: 2800000, guid: 1ea102c0375a133428a21a6feb932759, type: 3}
-        - m_ExpressionIndex: 4
-          m_Value: {fileID: 2800000, guid: ee05b597174590c41a0929d87f45e68b, type: 3}
+        m_Array: []
       m_Bool:
         m_Array: []
     m_ExposedExpressions: []
-    m_Buffers:
-    - type: 1
-      size: 360
-      layout:
-      - name: position
-        type: 3
-        offset:
-          bucket: 0
-          structure: 4
-          element: 0
-      - name: seed
-        type: 6
-        offset:
-          bucket: 240
-          structure: 1
-          element: 0
-      - name: texIndex
-        type: 1
-        offset:
-          bucket: 300
-          structure: 1
-          element: 0
-      capacity: 60
-      stride: 4
-    - type: 1
-      size: 360
-      layout:
-      - name: position
-        type: 3
-        offset:
-          bucket: 0
-          structure: 4
-          element: 0
-      - name: seed
-        type: 6
-        offset:
-          bucket: 240
-          structure: 1
-          element: 0
-      - name: texIndex
-        type: 1
-        offset:
-          bucket: 300
-          structure: 1
-          element: 0
-      capacity: 60
-      stride: 4
-    - type: 1
-      size: 1
-      layout:
-      - name: spawnCount
-        type: 1
-        offset:
-          bucket: 0
-          structure: 1
-          element: 0
-      capacity: 1
-      stride: 4
-    - type: 4
-      size: 60
-      layout: []
-      capacity: 0
-      stride: 4
-    - type: 0
-      size: 60
-      layout: []
-      capacity: 0
-      stride: 8
-    - type: 0
-      size: 60
-      layout: []
-      capacity: 0
-      stride: 8
-    m_CPUBuffers:
-    - capacity: 1
-      stride: 1
-      layout:
-      - name: spawnCount
-        type: 1
-        offset:
-          bucket: 0
-          structure: 1
-          element: 0
-      initialData:
-        data: 00000000
-    - capacity: 1
-      stride: 1
-      layout:
-      - name: spawnCount
-        type: 1
-        offset:
-          bucket: 0
-          structure: 1
-          element: 0
-      initialData:
-        data: 00000000
-    m_Events:
-    - name: OnPlay
-      playSystems: 00000000
-      stopSystems: 
-    - name: OnStop
-      playSystems: 
-      stopSystems: 00000000
+    m_Buffers: []
+    m_CPUBuffers: []
+    m_Events: []
     m_RuntimeVersion: 5
     m_RendererSettings:
       motionVectorGenerationMode: 0
@@ -1192,107 +882,9 @@ VisualEffectResource:
       lightProbeUsage: 0
     m_CullingFlags: 3
     m_UpdateMode: 0
-  m_Systems:
-  - type: 0
-    flags: 0
-    capacity: 0
-    layer: 4294967295
-    buffers:
-    - nameId: spawner_output
-      index: 1
-    values: []
-    tasks:
-    - type: 268435457
-      buffers: []
-      values:
-      - nameId: Count
-        index: 1
-      - nameId: Delay
-        index: 22
-      params: []
-      processor: {fileID: 0}
-      shaderSourceIndex: -1
-  - type: 1
-    flags: 2
-    capacity: 60
-    layer: 4294967295
-    buffers:
-    - nameId: attributeBuffer
-      index: 0
-    - nameId: sourceAttributeBuffer
-      index: 2
-    - nameId: spawner_input
-      index: 1
-    - nameId: indirectBuffer
-      index: 3
-    - nameId: sortBufferA
-      index: 4
-    - nameId: sortBufferB
-      index: 5
-    values:
-    - nameId: bounds_center
-      index: 21
-    - nameId: bounds_size
-      index: 20
-    tasks:
-    - type: 536870912
-      buffers:
-      - nameId: attributeBuffer
-        index: 0
-      - nameId: sourceAttributeBuffer
-        index: 2
-      values: []
-      params:
-      - nameId: bounds_center
-        index: 21
-      - nameId: bounds_size
-        index: 20
-      processor: {fileID: 0}
-      shaderSourceIndex: 0
-    - type: 805306368
-      buffers:
-      - nameId: attributeBuffer
-        index: 0
-      - nameId: indirectBuffer
-        index: 3
-      values:
-      - nameId: deltaTime_a
-        index: 12
-      params: []
-      processor: {fileID: 0}
-      shaderSourceIndex: 1
-    - type: 805306369
-      buffers:
-      - nameId: attributeBuffer
-        index: 0
-      - nameId: inputBuffer
-        index: 3
-      - nameId: outputBuffer
-        index: 4
-      values:
-      - nameId: localToWorld
-        index: 24
-      params: []
-      processor: {fileID: 0}
-      shaderSourceIndex: 3
-    - type: 1073741826
-      buffers:
-      - nameId: attributeBuffer
-        index: 0
-      - nameId: indirectBuffer
-        index: 3
-      values:
-      - nameId: baseColorMap
-        index: 4
-      - nameId: normalMap
-        index: 3
-      params:
-      - nameId: sortPriority
-        index: 0
-      - nameId: indirectDraw
-        index: 1
-      processor: {fileID: 0}
-      shaderSourceIndex: 2
+    m_PreWarmDeltaTime: 0.05
+    m_PreWarmStepCount: 0
+  m_Systems: []
 --- !u!114 &8926484042661614530
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2861,7 +2453,6 @@ MonoBehaviour:
   preRefraction: 0
   materialType: 4
   onlyAmbientLighting: 0
-  diffusionProfile: 2
   multiplyThicknessWithAlpha: 0
   useBaseColorMap: 2
   useMaskMap: 0
